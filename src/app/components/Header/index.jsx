@@ -29,7 +29,7 @@ const Header = ({actions}) => {
         <a className={styles.header__signin} href="#">
           Sign in
         </a>
-        <button className={styles.header__create__button}>
+        <button className={styles.header__button}>
           Create an account
         </button>
       </div>

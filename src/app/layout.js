@@ -1,3 +1,4 @@
+import 'normalize.css';
 export const metadata = {
   title: "Storio",
   description: "Store for everyone",
