@@ -1,4 +1,5 @@
-import 'normalize.css';
+import './global.scss';
+import './page.module.scss';
 export const metadata = {
   title: "Storio",
   description: "Store for everyone",

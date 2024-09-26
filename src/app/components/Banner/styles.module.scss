@@ -2,11 +2,13 @@
     width:555px;
     text-align: left;
 }
-
-.banner__title_size_l{
-    font-size: 50px;
-    background-color: red;
-}
 .banner__title{
-    background-color: aqua;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.banner__description{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 20px;
 }
