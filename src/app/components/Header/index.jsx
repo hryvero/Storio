@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-const Header = ({actions}) => {
+const Header = ({ actions }) => {
   return (
     <div className={styles.header}>
       {/* Logo */}
@@ -13,15 +13,17 @@ const Header = ({actions}) => {
       {/* Navigation */}
       <div className={styles.header__navigation}>
         <ul className={styles.header__list}>
-          {actions? actions.map((action)=>{
-           return(   
-           <li key={action.id} className={styles.header__item}>
-          <a className={styles.header__link} href="#">
-            {action.title}
-          </a>
-        </li>) 
-       
-          }): null}
+          {actions
+            ? actions.map((action) => {
+                return (
+                  <li key={action.id} className={styles.header__item}>
+                    <a className={styles.header__link} href="#">
+                      {action.title}
+                    </a>
+                  </li>
+                );
+              })
+            : null}
         </ul>
       </div>
       {/* Authorization  */}
@@ -29,9 +31,7 @@ const Header = ({actions}) => {
         <a className={styles.header__signin} href="#">
           Sign in
         </a>
-        <button className={styles.header__button}>
-          Create an account
-        </button>
+        <button className={styles.header__button}>Create an account</button>
       </div>
     </div>
   );
