@@ -1,14 +1,26 @@
-.banner{
-    width:555px;
-    text-align: left;
+.banner {
+  width: 555px;
+  text-align: left;
 }
-.banner__title{
-    line-height: 45px;
-    font-weight: 500;
+.banner_center {
+  text-align: center;
+}
+.banner__title {
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 40px;
+
+  &_size_l {
     font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+  }
+  &_size_l strong {
+    font-weight: 700;
+  }
 }
-.banner__description{
-    font-size: 16px;
-    line-height: 30px;
-    margin-top: 20px;
+.banner__description {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
 }

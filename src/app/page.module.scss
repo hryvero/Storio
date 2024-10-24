@@ -6,6 +6,21 @@
   min-height: 100vh;
 }
 .banner__section {
+  display: flex;
   margin-top: 100px;
   padding-top: 4px;
+}
+
+.info__section {
+  margin-top: 111px;
+  max-width: 1140px;
+}
+
+.location__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 112px;
+  margin-top: 130px;
 }
